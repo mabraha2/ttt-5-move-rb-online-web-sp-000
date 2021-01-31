@@ -5,7 +5,7 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-board = ["x","x","x"," ","o"," "," "," "," "]
+board = [" "," "," "," "," "," "," "," "," "]
 display_board(board)
 
 def input_to_index(user_input)
@@ -13,5 +13,5 @@ def input_to_index(user_input)
 end
 
 def move(board, postion, char="X")
-
+board[0]
 end
