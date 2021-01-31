@@ -8,8 +8,8 @@ end
 board = ["x","x","x"," ","o"," "," "," "," "]
 display_board(board)
 
-def input_to_index(input)
-puts "5".to_i
+def input_to_index(user_input)
+  user_input.to_i
 end
 
 input = ["5", " ", " ", " ", " ", " ", " ", " ", " "]
