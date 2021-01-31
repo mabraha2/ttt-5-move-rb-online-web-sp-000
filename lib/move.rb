@@ -12,8 +12,3 @@ def input_to_index(user_input)
   user_input.to_i
 end
 
-input = ["5", " ", " ", " ", " ", " ", " ", " ", " "]
-input_to_index(input)
-def move(board, index, value)
-board[index] = value
-end
