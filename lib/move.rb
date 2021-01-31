@@ -5,5 +5,15 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
+board = ["x","x","x"," ","o"," "," "," "," "]
+display_board(board)
 
-# code your input_to_index and move method here!
+def input_to_index(input)
+puts "5".to_i
+end
+
+input = ["5", " ", " ", " ", " ", " ", " ", " ", " "]
+input_to_index(input)
+def move(board, index, value)
+board[index] = value
+end
